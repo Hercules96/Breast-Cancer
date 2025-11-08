@@ -17,4 +17,4 @@ model.fit(X_train, y_train)
 pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, pred))
 
-joblib.dump(model, "breast_cancer_model.pkl")
+joblib.dump(model, "models/breast_cancer_model.pkl")
